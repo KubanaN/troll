@@ -1,0 +1,54 @@
+scm - software configuration mangament (programs like subversion(svn), tsf, git etc.)
+tfs - team foundation sever
+npm - node package manager
+mvc - model view control
+cms = cma + cda- content managment system
+cda - content delivery application
+cma - content managment application
+cvs - Concurrent Versions System
+rcs - Revision Control System
+RPG - report program generator
+Node.js REPL (Read Eval Print Loop)
+IDE - An integrated development environment (IDE) 
+is a programming environment that has been packaged as an 
+application program, typically consisting of a code editor, a compiler, 
+a debugger, and a graphical user interface (GUI) builder. 
+
+GNU Listeni/gnu?/[3][4] is an extensive collection of computer software that 
+can be used to build a Unix-like operating system. GNU is composed wholly of free software
+MinGW (Minimalist GNU for Windows), formerly mingw32, is a free and open source software
+ development environment for creating Microsoft Windows applications.
+
+It includes a port of the GNU Compiler Collection (GCC), GNU Binutils for Windows 
+(assembler, linker, archive manager), a set of freely distributable Windows specific
+ header files and static import libraries which enable the use of the Windows API, 
+a Windows native build of the GNU Project's GNU Debugger, and miscellaneous utilities.
+
+git objects: 
+blob
+tree
+commit
+tag
+
+databases:
+oracle
+mongodb
+sql
+
+git commands:
+- touch to create new element
+- checkout to change git thing(git directory?)
+- merge
+- commit
+- add
+- m
+- . for selecting everything
+- *.html for all html extension files
+
+touch .gitignore creates a file, in which you can type what files you want your git repository to ignore
+
+When Node.js loads your module it's actually wrapping it in a function that looks sort of like:
+function(__dirname, __filename, module, exports, require) {
+// ...
+}
+
